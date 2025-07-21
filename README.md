@@ -57,7 +57,8 @@ comfyui.setup()
     You can also do the step no 11 from your comfy interface from manager by typing "HQ" and installing it
 
 
-12. Modify environment variables in env.py inside comfy folder (.nuke)
+12. Modify environment variables in env.py inside comfy folder (.nuke) :-
+    
     COMFYUI_DIR = '<path_to_ComfyUI>' # Put the directory where ComfyUI is installed !
     IP = '127.0.0.1'
     PORT = 8188
