@@ -18,6 +18,8 @@ Comfyui Installation and Nuke-Comfy connection mannual
 
 3. Install ComfyUi into your system
 
+[ https://github.com/comfyanonymous/ComfyUI ] Head over to this website and under installing section click "DIRECT LINK TO DOWNLOAD" and use 7Zip to unzip it.
+
          Download the " ComfyUI_windows_portable_nvidia.7z " Folder into your desired dir and download the manager(bat file) into the "ComfyUI_windows_portable" folder.
          Run the
          " install-manager-for-portable-version.bat "
