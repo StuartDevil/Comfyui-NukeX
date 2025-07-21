@@ -1,11 +1,11 @@
 # Comfyui-NukeX
 Comfyui Installation and Nuke-Comfy connection mannual
 
-         ....
+
 
 Read carefully and follow the steps one by one
 
-         ....
+
 
 
 
