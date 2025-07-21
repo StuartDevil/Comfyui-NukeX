@@ -28,21 +28,23 @@ Comfyui Installation and Nuke-Comfy connection mannual
          If you still can't see your manager in Comfy interface wait for step 10
          wallah comfy is in your system now! now close it for now. 
 
-5. Head over to .nuke folder and one the location pane type "cmd" to open commanline on python { cd "C:\Users\<username>\.nuke" }
+4. Head over to .nuke folder and one the location pane type "cmd" to open commanline on python { cd "C:\Users\<username>\.nuke" }
    on the terminal type
                { git clone --recursive https://github.com/vinavfx/ComfyUI-for-Nuke nuke_comfyui }
 
 or you can copy paste the "comfyui-for-nuke" folder in .nuke [name the folder "nuke_comfyui"]
 
-6. Install websocket into your system
+5. Install websocket into your system
    Open the terminal as administrator and run
                { "C:\Program Files\Nuke15.1v3\python.exe" -m pip install websocket-client }
 
-8. Add the path to your enviroment variables in your system under (System variables>Path) click new and add the path
+6. Add the path to your enviroment variables in your system under (System variables>Path) click new and add the path
 
-9. Follow the terminal if update needed and repeat the step no 5
+7. Follow the terminal if update needed and repeat the step no 5
 
-         9. Open your meny.py and copy the following
+8. Important step :-
+
+         Open your meny.py and copy the following
          import nuke_comfyui as comfyui
          comfyui.setup()
 
@@ -80,7 +82,7 @@ Wallah both are connected.
     Tips:-
 
     If you get any error while opening nuke look for your python in your system is it there or not ensure the version by typing { python --version }
-    and then repeat step 5,6,9
+    and then repeat step 4.5.8
 
     If you want to have the ComfyUI server on another machine, you must share the folder where ComfyUI is installed and put the path in env.py
 
