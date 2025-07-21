@@ -30,19 +30,21 @@ Comfyui Installation and Nuke-Comfy connection mannual
 
 4. Head over to .nuke folder and one the location pane type "cmd" to open commanline on python { cd "C:\Users\<username>\.nuke" }
    on the terminal type
-               { git clone --recursive https://github.com/vinavfx/ComfyUI-for-Nuke nuke_comfyui }
+
+            { git clone --recursive https://github.com/vinavfx/ComfyUI-for-Nuke nuke_comfyui }
 
 or you can copy paste the "comfyui-for-nuke" folder in .nuke [name the folder "nuke_comfyui"]
 
 5. Install websocket into your system
    Open the terminal as administrator and run
-               { "C:\Program Files\Nuke15.1v3\python.exe" -m pip install websocket-client }
 
-6. Add the path to your enviroment variables in your system under (System variables>Path) click new and add the path
+            { "C:\Program Files\Nuke15.1v3\python.exe" -m pip install websocket-client }
 
-7. Follow the terminal if update needed and repeat the step no 5
+7. Add the path to your enviroment variables in your system under (System variables>Path) click new and add the path
 
-8. Important step :-
+8. Follow the terminal if update needed and repeat the step no 5
+
+9. Important step :-
 
          Open your meny.py and copy the following
          import nuke_comfyui as comfyui
