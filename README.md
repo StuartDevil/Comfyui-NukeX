@@ -11,7 +11,7 @@ Read carefully and follow the steps one by one
 
 1. Install Latest Python from Python.org
 
-         Note:-Uninstall all the previous Python files and directories. [during the installation check all boxes] othe wise it won't work.
+         Note:-Uninstall all the previous Python files and directories. [during the installation check all boxes] othe wise it won't work..
 
 2. Head over to { https://git-scm.com/ } and download git for Windows and Install it..
 
