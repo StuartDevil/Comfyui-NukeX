@@ -13,7 +13,7 @@ Read carefully and follow the steps one by one
 
          Note:-Uninstall all the previous Python files and directories. [during the installation check all boxes] othe wise it won't work..
 
-2. Head over to { https://git-scm.com/ } and download git for Windows and Install it..
+2. Head over to { https://git-scm.com/ } and download git for Windows and Install it...
 
 3. Install ComfyUi into your system
 
